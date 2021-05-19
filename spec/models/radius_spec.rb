@@ -1,5 +1,6 @@
 require 'spec_helper'
 require './models/radius'
+require 'rack/test'
 
 RSpec.describe 'Distance API' do
   it 'has attributes' do
