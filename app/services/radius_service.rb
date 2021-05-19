@@ -8,7 +8,7 @@ class ZipCodeRadiusService
         req.params['unit'] = 'miles'
         req.params['country'] = 'us'
       end
-      JSON.parse(response.body, symbolize_names: true)
+      body = JSON.parse(response.body, symbolize_names: true)
     end
 
     private

@@ -11,9 +11,9 @@ RSpec.describe 'Distance API' do
 
 	it "returns me json that is a hash with 2 keys" do
     VCR.use_cassette('distance_1_cassette') do
-
        get "/80211/10"
 			 body = JSON.parse(last_response.body, symbolize_names: true)
+			 require "pry"; binding.pry
       expect(body).to be_a(Hash)
 			expect(body[:radius]).to be_a(Hash)
 			expect(body[:radius][:query]).to be_a(Hash)
