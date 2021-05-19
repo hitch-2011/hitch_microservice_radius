@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 19 May 2021 17:32:02 GMT
+      - Wed, 19 May 2021 20:41:14 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -31,7 +31,7 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       X-Ratelimit-Remaining:
-      - '4840'
+      - '4780'
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -43,17 +43,17 @@ http_interactions:
       Cf-Cache-Status:
       - DYNAMIC
       Cf-Request-Id:
-      - 0a2748485400000c1be9996000000001
+      - 0a27f57fac0000d2a24433c000000001
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=IlT4V7mCx4bwvWUANrGnRk4rfjjwXomedNqY2ZsriGWWIJH2KF%2F0ngMMYUoGnXwSPbu3v6resjVuzEYmQRcTbN5%2BXLt3vz6sB3kwNsEJskdjvd8EBV7OndPOG96%2FLljy"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=unuPoSrJ89n17pSh0qycB%2FdiLMdQv6ussFniruVMIeJ9dowZYK%2BGyqlG9A8AluNIIyWJr4%2FTMKgTUsZMjGLM3SB3fmp8%2Fy1Wc1JEhfsJW8w9AfxgkhQ1S0c3jEJ%2BDgfp"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 651f0fed587b0c1b-DFW
+      - 65202512a878d2a2-DFW
       Alt-Svc:
       - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -62,5 +62,5 @@ http_interactions:
         Ridge","state":"CO","city_en":null,"state_en":null,"distance":3.02},{"code":"80216","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":3.07},{"code":"80203","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":3.21},{"code":"80273","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":3.22},{"code":"80218","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":3.49},{"code":"80033","city":"Wheat
         Ridge","state":"CO","city_en":null,"state_en":null,"distance":4.06},{"code":"80206","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":4.29},{"code":"80001","city":"Arvada","state":"CO","city_en":null,"state_en":null,"distance":4.36},{"code":"80006","city":"Arvada","state":"CO","city_en":null,"state_en":null,"distance":4.36},{"code":"80030","city":"Westminster","state":"CO","city_en":null,"state_en":null,"distance":4.49},{"code":"80215","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":4.56},{"code":"80002","city":"Arvada","state":"CO","city_en":null,"state_en":null,"distance":4.57},{"code":"80223","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":4.68},{"code":"80003","city":"Arvada","state":"CO","city_en":null,"state_en":null,"distance":4.91},{"code":"80209","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":4.92},{"code":"80035","city":"Westminster","state":"CO","city_en":null,"state_en":null,"distance":4.93},{"code":"80036","city":"Westminster","state":"CO","city_en":null,"state_en":null,"distance":4.93},{"code":"80219","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":4.95},{"code":"80262","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":5},{"code":"80221","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":5.07},{"code":"80226","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":5.33},{"code":"80037","city":"Commerce
         City","state":"CO","city_en":null,"state_en":null,"distance":5.43},{"code":"80207","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":5.48},{"code":"80004","city":"Arvada","state":"CO","city_en":null,"state_en":null,"distance":6.12},{"code":"80246","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":6.2},{"code":"80220","city":"Denver","state":"CO","city_en":null,"state_en":null,"distance":6.21}]}'
-  recorded_at: Wed, 19 May 2021 17:32:02 GMT
+  recorded_at: Wed, 19 May 2021 20:41:14 GMT
 recorded_with: VCR 6.0.0
