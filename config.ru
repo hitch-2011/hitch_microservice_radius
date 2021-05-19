@@ -6,5 +6,5 @@ require './app/controllers/application_controller'
 
 require 'figaro/sinatra'
 Bundler.require
-
+map('/distance') { run ApplicationController }
 run Sinatra::Application

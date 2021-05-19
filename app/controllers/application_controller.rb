@@ -11,11 +11,8 @@ require './app/services/radius_service'
 
 class ApplicationController < Sinatra::Base
 
-before do
-  content_type :json
-end
 
-  get '/:zipcode/:radius' do
+  get "/:zipcode/:radius" do
   radius = ZipCodeRadiusService.find_radius(params)
   data = Radius.new(radius).to_json
   end
