@@ -11,6 +11,7 @@ require './models/radius'
 require './app/services/radius_service'
 
 class ApplicationController < Sinatra::Base
+
 before do
   content_type :json
 end
