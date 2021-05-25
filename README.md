@@ -16,6 +16,8 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
+# Hitch Radius Microservice
+
 [![Build Status](https://travis-ci.com/Level-turing-team/level-zipcode-microservice.svg?branch=main)](https://travis-ci.com/Level-turing-team/level-zipcode-microservice)
 <!-- TABLE OF CONTENTS -->
 <details open="open">
